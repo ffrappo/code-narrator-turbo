@@ -34,12 +34,12 @@ export default class CliHelper {
     public async getConfig(argv : any) : Promise<Partial<ICodeNarratorConfig>> {
         let configPath = argv.config as string;
         let userConfig: Partial<ICodeNarratorConfig> = {};
-        if (fs.existsSync(path.join(process.cwd(), 'code-narrator.config.ts'))) {
-            configPath = path.join(process.cwd(), 'code-narrator.config.ts');
-        } else if (fs.existsSync(path.join(process.cwd(), 'code-narrator.config.js'))) {
-            configPath = path.join(process.cwd(), 'code-narrator.config.js');
-        } else if (fs.existsSync(path.join(process.cwd(), 'code-narrator.json'))) {
-            configPath = path.join(process.cwd(), 'code-narrator.json');
+        if (fs.existsSync(path.join(process.cwd(), 'code-narrator-turbo.config.ts'))) {
+            configPath = path.join(process.cwd(), 'code-narrator-turbo.config.ts');
+        } else if (fs.existsSync(path.join(process.cwd(), 'code-narrator-turbo.config.js'))) {
+            configPath = path.join(process.cwd(), 'code-narrator-turbo.config.js');
+        } else if (fs.existsSync(path.join(process.cwd(), 'code-narrator-turbo.json'))) {
+            configPath = path.join(process.cwd(), 'code-narrator-turbo.json');
         }
 
         if (configPath) {

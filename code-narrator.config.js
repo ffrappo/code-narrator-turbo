@@ -8,9 +8,9 @@ const UserDefinedBuilder = require("./src/documentation/plugins/builders/UserDef
 const config = {
     entry_file: "./dist/src/App.js",
     cli_file: "./dist/src/cli.js",
-    project_name: "code-narrator",
+    project_name: "code-narrator-turbo",
     config_files: [
-        "code-narrator.config.js"
+        "code-narrator-turbo.config.js"
     ],
     readmeRoot: true,
     folderRootFileName: 'README',
@@ -20,7 +20,7 @@ const config = {
     documentation_path: "docs",
     test_path: "__tests__",
     include: [
-        "code-narrator.config.js",
+        "code-narrator-turbo.config.js",
         "src/**/*.ts"
     ],
     generatorPlugin : [],
@@ -67,7 +67,7 @@ const config = {
             sidebarPosition: 3,
             args: {
                 entryFileContent: 'content(./dist/src/cli.js)',
-                configFile: 'content(code-narrator.config.js)'
+                configFile: 'content(code-narrator-turbo.config.js)'
             },
             files: [
                 {
@@ -100,7 +100,7 @@ const config = {
                     name: "How to create HowTo",
                     files: [
                         {
-                            path: "code-narrator.config.js",
+                            path: "code-narrator-turbo.config.js",
                             extract: "builders"
                         }
                     ]
@@ -115,7 +115,7 @@ const config = {
                     name:"HowTo run CLI",
                     template: "howto_run_cli",
                     args : {
-                        docUrl : "https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator.config.js.md"
+                        docUrl : "https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator-turbo.config.js.md"
                     },
                     files : [
                         {
@@ -130,7 +130,7 @@ const config = {
                     name: "Create your own custom builder",
                     files: [
                         {
-                            path: 'code-narrator.config.js',
+                            path: 'code-narrator-turbo.config.js',
                             extract: 'builders' //You can use natural language to extract, e.g. "first 20 lines", "first paragraph"
                         },
                         {
@@ -161,7 +161,7 @@ const config = {
                             path: "src/documentation/plugins/builders/Files/FilesBuilder.ts"
                         },
                         {
-                            path: "code-narrator.config.js",
+                            path: "code-narrator-turbo.config.js",
                             extract: "builderPlugins"
                         }
                     ]

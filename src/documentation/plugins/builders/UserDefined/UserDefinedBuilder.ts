@@ -43,7 +43,7 @@ export default class UserDefinedBuilder extends BaseBuilder {
     public async generateFromBuilder(builder : IBuilder, saveToPath : string, position : number, data : any) {
         let project_path = process.cwd();
         let templatePath = builder.template;
-        templatePath = `.code-narrator/gpt_questions/${templatePath}`;
+        templatePath = `.code-narrator-turbo/gpt_questions/${templatePath}`;
 
         if (!fs.existsSync(path.join(process.cwd(), `${templatePath}.liquid`))) {
             console.log(path.join(process.cwd(), templatePath))

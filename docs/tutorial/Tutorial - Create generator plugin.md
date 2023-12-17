@@ -26,13 +26,13 @@ export default class MyGenerator extends BaseGenerator {
 
 3. In the `process` function, you can add your custom logic to modify the `document` object as needed.
 
-4. Now, you need to add your custom generator plugin to the `code-narrator.config.js` file. First, import your `MyGenerator` class at the top of the file:
+4. Now, you need to add your custom generator plugin to the `code-narrator-turbo.config.js` file. First, import your `MyGenerator` class at the top of the file:
 
 ```javascript
 import MyGenerator from './path/to/MyGenerator';
 ```
 
-5. Next, add the `MyGenerator` class to the `generatorPlugins` array in the `code-narrator.config.js` file:
+5. Next, add the `MyGenerator` class to the `generatorPlugins` array in the `code-narrator-turbo.config.js` file:
 
 ```javascript
 export default {

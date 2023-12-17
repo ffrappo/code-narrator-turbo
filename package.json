@@ -1,7 +1,7 @@
 {
   "name": "code-narrator-turbo",
-  "version": "1.0.2",
-  "description": "Uses OpenAI to generate documentation for your source code, as well create HowTo, FAQ, Tutorial and other custom pages. Code-narrator documents it self and should be a validation of the documentation working, similar to a compiler compiling it self. Configuration code-narrator.config.js file is created on first run and sets the configuration for your project, such as project path, doc, documentation type and more. The package can be install using 'npm i code-narrator -D'. code-narrator is code language, linguistic & framework neutral. It keeps your documentation always up to date",
+  "version": "1.0.30",
+  "description": "Uses OpenAI to generate documentation for your source code, as well create HowTo, FAQ, Tutorial and other custom pages. code-narrator-turbo documents it self and should be a validation of the documentation working, similar to a compiler compiling it self. Configuration code-narrator-turbo.config.js file is created on first run and sets the configuration for your project, such as project path, doc, documentation type and more. The package can be install using 'npm i code-narrator-turbo -D'. code-narrator-turbo is code language, linguistic & framework neutral. It keeps your documentation always up to date",
   "keywords": [
     "documentation",
     "openai",
@@ -16,7 +16,7 @@
     "url": "https://github.com/ffrappo/code-narrator-turbo"
   },
   "bin": {
-    "code-narrator-cli": "./dist/src/cli.js"
+    "code-narrator-turbo-cli": "./dist/src/cli.js"
   },
   "readme": "./docs/ReadMe.md",
   "scripts": {

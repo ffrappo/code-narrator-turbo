@@ -46,7 +46,7 @@ Here's an example of how the `cli.ts` file is used:
     const argv = await cliHelper.getArgv();
     let userConfig = await cliHelper.getConfig(argv);
 
-    console.log('Starting code-narrator')
+    console.log('Starting code-narrator-turbo')
 
     let app = new App();
     await app.run(userConfig);

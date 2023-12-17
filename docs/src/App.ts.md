@@ -1,6 +1,6 @@
 # App.ts
 
-The `App.ts` file is the main entry point for the `code-narrator` application. This application is responsible for generating documentation for a project by parsing its code and folder structure, and then using GPT to generate documentation in Markdown format. The generated documentation is then cached and used to create the final documentation output.
+The `App.ts` file is the main entry point for the `code-narrator-turbo` application. This application is responsible for generating documentation for a project by parsing its code and folder structure, and then using GPT to generate documentation in Markdown format. The generated documentation is then cached and used to create the final documentation output.
 
 ## Table of Contents
 
@@ -12,11 +12,11 @@ The `App.ts` file is the main entry point for the `code-narrator` application. T
 
 ## Overview
 
-The `code-narrator` application is installed with `npm i code-narrator` and executed either by `npm run start` or by using the CLI. When starting, it will load up the configuration and cached documentation. Then, it will go through the project code, reading the file & folder structure. If the file or folder does not exist in the cache or the file has changed since last cached, `code-narrator` will send the code to GPT and ask for documentation in an .md format. When it receives the documentation, it writes it to the cache. When all files and folders have been parsed, then `code-narrator` creates the documentation from the cache.
+The `code-narrator-turbo` application is installed with `npm i code-narrator-turbo` and executed either by `npm run start` or by using the CLI. When starting, it will load up the configuration and cached documentation. Then, it will go through the project code, reading the file & folder structure. If the file or folder does not exist in the cache or the file has changed since last cached, `code-narrator-turbo` will send the code to GPT and ask for documentation in an .md format. When it receives the documentation, it writes it to the cache. When all files and folders have been parsed, then `code-narrator-turbo` creates the documentation from the cache.
 
 ## App Class
 
-The `App` class is the main class of the `code-narrator` application. It contains a single method, `run`, which is responsible for executing the documentation generation process.
+The `App` class is the main class of the `code-narrator-turbo` application. It contains a single method, `run`, which is responsible for executing the documentation generation process.
 
 ### run Method
 
@@ -42,7 +42,7 @@ app.run();
 
 ## Tips and Cautions
 
-When using `code-narrator`, there are a few rules to follow:
+When using `code-narrator-turbo`, there are a few rules to follow:
 
 - Write a description of the project in the project file (e.g., `package.json`).
 - If GPT generates incorrect documentation, the code is probably not clear for humans either. Try adjusting the code or adding a one-line comment to make the code clearer.

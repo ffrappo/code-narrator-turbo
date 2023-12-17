@@ -12,7 +12,7 @@ By the end of this tutorial, you will be able to:
 
 1. Extend the base class for creating a custom builder plugin.
 2. Implement required functions for the plugin.
-3. Configure the plugin in the `code-narrator.config.js` file.
+3. Configure the plugin in the `code-narrator-turbo.config.js` file.
 
 ## Prerequisites
 
@@ -75,9 +75,9 @@ public async generate() {
 
 Replace the placeholders with the appropriate values for your use case.
 
-### Step 5: Add MyBuilder to the code-narrator.config.js file
+### Step 5: Add MyBuilder to the code-narrator-turbo.config.js file
 
-In the `code-narrator.config.js` file, import your `MyBuilder` plugin and add it to the `builderPlugins` array:
+In the `code-narrator-turbo.config.js` file, import your `MyBuilder` plugin and add it to the `builderPlugins` array:
 
 ```javascript
 import MyBuilder from "./path/to/MyBuilder";
@@ -98,4 +98,4 @@ Make sure to replace `./path/to/MyBuilder` with the actual path to your `MyBuild
 
 ## Conclusion
 
-Congratulations! You have successfully created a custom builder plugin called `MyBuilder`. By following these steps, you have learned how to extend the base class, implement necessary functions, and configure the plugin in the `code-narrator.config.js` file.
+Congratulations! You have successfully created a custom builder plugin called `MyBuilder`. By following these steps, you have learned how to extend the base class, implement necessary functions, and configure the plugin in the `code-narrator-turbo.config.js` file.

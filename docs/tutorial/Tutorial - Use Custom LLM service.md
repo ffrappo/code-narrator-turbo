@@ -1,26 +1,26 @@
-# Tutorial: Connecting a Custom LLM to Code-Narrator
+# Tutorial: Connecting a Custom LLM to code-narrator-turbo
 
 ## Target Audience
-This tutorial is intended for developers who want to connect their custom Language Learning Model (LLM) to Code-Narrator instead of using OpenAI to generate documentation.
+This tutorial is intended for developers who want to connect their custom Language Learning Model (LLM) to code-narrator-turbo instead of using OpenAI to generate documentation.
 
 ## Learning Objectives
 By the end of this tutorial, you will be able to:
 1. Implement the `IGenericAIService` interface.
 2. Create a custom service called `MyLLMService`.
-3. Connect your custom LLM service to Code-Narrator.
+3. Connect your custom LLM service to code-narrator-turbo.
 
 ## Introduction
-In this tutorial, we will guide you through the process of connecting your custom LLM to Code-Narrator. You will need to implement the `IGenericAIService` interface and create a custom service called `MyLLMService`. We will also show you how to add your custom service to the `code-narrator.config.js` file.
+In this tutorial, we will guide you through the process of connecting your custom LLM to code-narrator-turbo. You will need to implement the `IGenericAIService` interface and create a custom service called `MyLLMService`. We will also show you how to add your custom service to the `code-narrator-turbo.config.js` file.
 
 ## Prerequisites and System Requirements
 - Basic knowledge of TypeScript and JavaScript.
-- Familiarity with Code-Narrator and its configuration.
-- A custom LLM service that you want to connect to Code-Narrator.
+- Familiarity with code-narrator-turbo and its configuration.
+- A custom LLM service that you want to connect to code-narrator-turbo.
 
 ## Step-by-Step Instructions
 
 ### Step 1: Implement the IGenericAIService Interface
-First, you need to implement the `IGenericAIService` interface in your custom LLM service. This interface is located in the `code-narrator` package and has the following structure:
+First, you need to implement the `IGenericAIService` interface in your custom LLM service. This interface is located in the `code-narrator-turbo` package and has the following structure:
 
 ```typescript
 import GenericAIResponse from "../model/GenericAIResponse";
@@ -72,10 +72,10 @@ export default MyLLMService;
 This is a generic example and may not fit your implementation to your LLM service.
 :::
 
-### Step 3: Add Your Custom Service to code-narrator.config.js
-Finally, you need to add your custom service as a class name to the `code-narrator.config.js` file. To do this, import your custom service and add a property called `aiService` to the `config` object.
+### Step 3: Add Your Custom Service to code-narrator-turbo.config.js
+Finally, you need to add your custom service as a class name to the `code-narrator-turbo.config.js` file. To do this, import your custom service and add a property called `aiService` to the `config` object.
 
-Here's an example of how to add your custom service to the `code-narrator.config.js` file:
+Here's an example of how to add your custom service to the `code-narrator-turbo.config.js` file:
 
 ```javascript
 import MyLLMService from "./path/to/your/MyLLMService";
@@ -88,7 +88,7 @@ const config = {
 export default config;
 ```
 
-Now, Code-Narrator will use your custom LLM service instead of OpenAI to generate documentation.
+Now, code-narrator-turbo will use your custom LLM service instead of OpenAI to generate documentation.
 
 ## Conclusion
-In this tutorial, you learned how to connect your custom LLM to Code-Narrator by implementing the `IGenericAIService` interface, creating a custom service called `MyLLMService`, and adding your custom service to the `code-narrator.config.js` file. With these steps, you can now use your custom LLM service to generate documentation with Code-Narrator.
+In this tutorial, you learned how to connect your custom LLM to code-narrator-turbo by implementing the `IGenericAIService` interface, creating a custom service called `MyLLMService`, and adding your custom service to the `code-narrator-turbo.config.js` file. With these steps, you can now use your custom LLM service to generate documentation with code-narrator-turbo.

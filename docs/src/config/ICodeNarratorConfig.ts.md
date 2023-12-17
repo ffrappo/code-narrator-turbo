@@ -13,7 +13,7 @@ Below is a list of properties in the `ICodeNarratorConfig` interface:
 - `project_name: string`: The name of the project.
 - `repository_url: string`: The URL of the project's repository.
 - `project_file: string`: The main project file.
-- `config_files: string[]`: An array of configuration file paths, e.g., for code-narrator, "code-narrator.config.ts" is the app config file.
+- `config_files: string[]`: An array of configuration file paths, e.g., for code-narrator-turbo, "code-narrator-turbo.config.ts" is the app config file.
 - `entry_file: string`: The entry point file of the project.
 - `cli_file: string`: The command-line interface file of the project.
 - `project_path: string`: The path to the project folder.
@@ -45,7 +45,7 @@ const config: ICodeNarratorConfig = {
   project_name: "MyProject",
   repository_url: "https://github.com/user/myproject",
   project_file: "myproject.ts",
-  config_files: ["code-narrator.config.ts"],
+  config_files: ["code-narrator-turbo.config.ts"],
   entry_file: "index.ts",
   cli_file: "cli.ts",
   project_path: "/path/to/myproject",

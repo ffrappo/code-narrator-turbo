@@ -8,7 +8,7 @@ import CliHelper from "./utils/CliHelper";
     const argv = await cliHelper.getArgv();
     let userConfig = await cliHelper.getConfig(argv);
 
-    console.log('Starting code-narrator')
+    console.log('Starting code-narrator-turbo')
 
     let app = new App();
     await app.run(userConfig);

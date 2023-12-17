@@ -44,10 +44,10 @@ The `OpenAIService` class is used to interact with the OpenAI API. An instance o
 
 ## Notes and Warnings
 
-- The `cache_file` property is set to `.code-narrator/cache.json`. This file should be committed into the Git repository to ensure proper functioning of the application.
+- The `cache_file` property is set to `.code-narrator-turbo/cache.json`. This file should be committed into the Git repository to ensure proper functioning of the application.
 
 ```md
 :::warning
-'.code-narrator/cache.json' should be committed into git.
+'.code-narrator-turbo/cache.json' should be committed into git.
 :::
 ```

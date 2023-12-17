@@ -8,7 +8,7 @@ When using Code Narrator, you may encounter a situation where the content is too
 
 ### Step 1: Open the cache.json file
 
-Locate the `.code-narrator/cache.json` file in your project directory and open it with a text editor.
+Locate the `.code-narrator-turbo/cache.json` file in your project directory and open it with a text editor.
 
 ### Step 2: Find the file and copy the requestMessages content
 

@@ -7,7 +7,7 @@ import ConfigFileSerializer from "./ConfigFileSerializer";
 export default class ConfigGenerator {
 
     public static async generate(projectConfig: Partial<ICodeNarratorConfig> = {}): Promise<Partial<ICodeNarratorConfig>> {
-        console.log('Understanding project and auto generating code-narrator.config.js')
+        console.log('Understanding project and auto generating code-narrator-turbo.config.js')
         let config = {
             ...DefaultSettings.get(),
             ...projectConfig,

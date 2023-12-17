@@ -8,14 +8,14 @@ export default class ConfigFileSerializer {
     public async serialize(config : ICodeNarratorConfig) {
 
         const configContent = `
-const ConfigurationBuilder = require("code-narrator/dist/src/documentation/plugins/builders/Configuration/ConfigurationBuilder");
-const FilesBuilder = require("code-narrator/dist/src/documentation/plugins/builders/Files/FilesBuilder");
-const FoldersBuilder = require("code-narrator/dist/src/documentation/plugins/builders/Folders/FoldersBuilder");
-const UserDefinedBuilder = require("code-narrator/dist/src/documentation/plugins/builders/UserDefined/UserDefinedBuilder");
+const ConfigurationBuilder = require("code-narrator-turbo/dist/src/documentation/plugins/builders/Configuration/ConfigurationBuilder");
+const FilesBuilder = require("code-narrator-turbo/dist/src/documentation/plugins/builders/Files/FilesBuilder");
+const FoldersBuilder = require("code-narrator-turbo/dist/src/documentation/plugins/builders/Folders/FoldersBuilder");
+const UserDefinedBuilder = require("code-narrator-turbo/dist/src/documentation/plugins/builders/UserDefined/UserDefinedBuilder");
 
 /**
- * You can find the documentation about code-narrator.config.js at
- * https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator.config.js.md
+ * You can find the documentation about code-narrator-turbo.config.js at
+ * https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator-turbo.config.js.md
  *
  * @type {ICodeNarratorConfig}
  */
@@ -24,17 +24,17 @@ const config = {
 }
 module.exports = config;
 `;
-        fs.writeFileSync(path.join(process.cwd(), 'code-narrator.config.js'), configContent)
+        fs.writeFileSync(path.join(process.cwd(), 'code-narrator-turbo.config.js'), configContent)
 
-        if (!fs.existsSync(path.join(process.cwd(), '.code-narrator'))) {
-            fs.mkdirSync(path.join(process.cwd(), '.code-narrator'))
+        if (!fs.existsSync(path.join(process.cwd(), '.code-narrator-turbo'))) {
+            fs.mkdirSync(path.join(process.cwd(), '.code-narrator-turbo'))
         }
-        if (!fs.existsSync(path.join(process.cwd(), '.code-narrator/gpt_questions'))) {
-            fs.mkdirSync(path.join(process.cwd(), '.code-narrator/gpt_questions'))
+        if (!fs.existsSync(path.join(process.cwd(), '.code-narrator-turbo/gpt_questions'))) {
+            fs.mkdirSync(path.join(process.cwd(), '.code-narrator-turbo/gpt_questions'))
         }
-        fs.copyFileSync(path.join(__dirname, 'README.liquid'), path.join(process.cwd(), '.code-narrator/gpt_questions/README.liquid'))
-        fs.copyFileSync(path.join(__dirname, 'overview_readme.liquid'), path.join(process.cwd(), '.code-narrator/gpt_questions/overview_readme.liquid'))
-        fs.copyFileSync(path.join(__dirname, 'howto_create_howto.liquid'), path.join(process.cwd(), '.code-narrator/gpt_questions/howto_create_howto.liquid'))
+        fs.copyFileSync(path.join(__dirname, 'README.liquid'), path.join(process.cwd(), '.code-narrator-turbo/gpt_questions/README.liquid'))
+        fs.copyFileSync(path.join(__dirname, 'overview_readme.liquid'), path.join(process.cwd(), '.code-narrator-turbo/gpt_questions/overview_readme.liquid'))
+        fs.copyFileSync(path.join(__dirname, 'howto_create_howto.liquid'), path.join(process.cwd(), '.code-narrator-turbo/gpt_questions/howto_create_howto.liquid'))
 
     }
 
@@ -80,11 +80,11 @@ module.exports = config;
 
     map = new Map([
         ['config_files', 'App specific configuration files. This could be something like project_name.json'],
-        ['repository_url', 'Url to the repository, code-narrator tries to extract this from project file'],
-        ['builderPlugins', 'These are the plugins used when building documentation. You can create your own plugin. Checkout the code-narrator docs HowTo create a builder plugin'],
+        ['repository_url', 'Url to the repository, code-narrator-turbo tries to extract this from project file'],
+        ['builderPlugins', 'These are the plugins used when building documentation. You can create your own plugin. Checkout the code-narrator-turbo docs HowTo create a builder plugin'],
         ['gptSystemCommands', 'These are system commends send to GPT with every query'],
         ['readmeRoot', 'Indicates if the documentation should create a README file in root of project'],
-        ['builders', 'Array of user defined documentations. See code-narrator How to create a user defined builder']
+        ['builders', 'Array of user defined documentations. See code-narrator-turbo How to create a user defined builder']
     ])
     private getCommentByKey(key: string, indent: string) {
         let value = this.map.get(key);

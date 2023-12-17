@@ -1,8 +1,8 @@
-## Prerequisites for Code-Narrator
+## Prerequisites for code-narrator-turbo
 
-Before you can fork and modify the code of the Code-Narrator project, you need to have the following software, tools, and knowledge:
+Before you can fork and modify the code of the code-narrator-turbo project, you need to have the following software, tools, and knowledge:
 
-1. **Node.js**: Code-Narrator is built using Node.js, so you need to have it installed on your system. You can download it from the [official Node.js website](https://nodejs.org/).
+1. **Node.js**: code-narrator-turbo is built using Node.js, so you need to have it installed on your system. You can download it from the [official Node.js website](https://nodejs.org/).
 
 2. **npm**: npm is the package manager for Node.js and is used to manage the project's dependencies. It comes bundled with Node.js, so you don't need to install it separately.
 
@@ -10,7 +10,7 @@ Before you can fork and modify the code of the Code-Narrator project, you need t
 
 4. **Git**: You need to have Git installed on your system to fork and clone the project repository. You can download Git from the [official Git website](https://git-scm.com/).
 
-5. **Code-Narrator repository**: Fork the [Code-Narrator repository](https://github.com/ffrappo/code-narrator-turbo) on GitHub and clone it to your local machine.
+5. **code-narrator-turbo repository**: Fork the [code-narrator-turbo repository](https://github.com/ffrappo/code-narrator-turbo) on GitHub and clone it to your local machine.
 
 6. **Set OPENAI_API_KEY in .env file**: In the project's root directory, create a `.env` file and set the `OPENAI_API_KEY` environment variable with your OpenAI API key. Replace `your_api_key` with your actual API key:
 
@@ -24,4 +24,4 @@ Before you can fork and modify the code of the Code-Narrator project, you need t
    npm install
    ```
 
-After completing these prerequisites, you should be able to work with and modify the Code-Narrator project.
+After completing these prerequisites, you should be able to work with and modify the code-narrator-turbo project.

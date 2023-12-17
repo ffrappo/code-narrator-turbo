@@ -6,14 +6,14 @@ import ConfigHelper from "./config/ConfigHelper";
 import ICodeNarratorConfig from "./config/ICodeNarratorConfig";
 
 /*
-About code-narrator
-This application is installed with "npm i code-narrator", and executed either by npm run start or by using cli.
+About code-narrator-turbo
+This application is installed with "npm i code-narrator-turbo", and executed either by npm run start or by using cli.
 When starting it will load up the configuration and cached documentation.
 Then it will go through the project code, reading the file & folder structure
 if the file or folder does not exist in the cache or the file has changed since last cached
-code-narrator will send the code to GPT and ask for documentation in an .md format.
+code-narrator-turbo will send the code to GPT and ask for documentation in an .md format.
 When it receives the documentation, it writes it to the cache.
-When all files and folders have been parsed, then code-narrator creates the documentation from the cache
+When all files and folders have been parsed, then code-narrator-turbo creates the documentation from the cache
 
 There are few rules to follow
 - Write description about the project in the project file (e.g. package.json)

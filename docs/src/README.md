@@ -15,7 +15,7 @@ This documentation provides an in-depth explanation of the content of the Code N
 
 ### App.ts
 
-The `App.ts` file is a part of the code-narrator application, which is responsible for generating documentation for a project using GPT. This file contains the main class `App` that orchestrates the process of loading configuration, caching documentation, building documentation, and generating the final documentation output.
+The `App.ts` file is a part of the code-narrator-turbo application, which is responsible for generating documentation for a project using GPT. This file contains the main class `App` that orchestrates the process of loading configuration, caching documentation, building documentation, and generating the final documentation output.
 
 [App.ts Documentation](App.ts)
 

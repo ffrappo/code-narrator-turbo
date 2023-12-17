@@ -22,7 +22,7 @@ serializer.serialize(config);
 
 ### serialize(config: ICodeNarratorConfig)
 
-This method takes a configuration object of type `ICodeNarratorConfig` and generates the corresponding `code-narrator.config.js` file and folder structure in the current working directory.
+This method takes a configuration object of type `ICodeNarratorConfig` and generates the corresponding `code-narrator-turbo.config.js` file and folder structure in the current working directory.
 
 #### Parameters
 

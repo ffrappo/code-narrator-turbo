@@ -16,7 +16,7 @@ export default class ConfigHelper {
     static BuilderPlugins: any[] = [];
     static DocumentationType = 'md';
     static DocumentExtension = '.md';
-    static CacheFilePath = '.code-narrator/cache.json';
+    static CacheFilePath = '.code-narrator-turbo/cache.json';
     static config: ICodeNarratorConfig;
 
     public static async load(projectConfig: Partial<ICodeNarratorConfig> = {}) {
@@ -33,7 +33,7 @@ export default class ConfigHelper {
             projectConfig = await ConfigGenerator.generate(projectConfig);
             console.log(`
 ============ Config generated =====================================
-Config file has been generated in project root, code-narrator.config.js. 
+Config file has been generated in project root, code-narrator-turbo.config.js. 
             
 Please read through it and see if it maps correctly to your project. You can modify it. 
 The important properties to look at are "source_path", "include" and "config_files" if you have some app specific config files.
@@ -62,7 +62,7 @@ Next time you will run the CLI it will start generating documentation
         } else {
             this.config.aiService = new OpenAIService();
         }
-        ConfigHelper.CacheFilePath = this.config.cache_file ?? '.code-narrator/cache.json';
+        ConfigHelper.CacheFilePath = this.config.cache_file ?? '.code-narrator-turbo/cache.json';
     }
 
     public static getUserDefinedExamples(config : ICodeNarratorConfig) {

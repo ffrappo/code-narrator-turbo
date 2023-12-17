@@ -1,16 +1,16 @@
-The `code-narrator.config.js` file is an app-specific configuration file for the Code Narrator application. It is used to define various settings and configurations for the application, such as entry files, project name, repository URL, source and documentation paths, and more. This configuration file also includes settings for builder plugins and generator plugins, which are used to customize the documentation generation process.
+The `code-narrator-turbo.config.js` file is an app-specific configuration file for the Code Narrator application. It is used to define various settings and configurations for the application, such as entry files, project name, repository URL, source and documentation paths, and more. This configuration file also includes settings for builder plugins and generator plugins, which are used to customize the documentation generation process.
 
 Here is an example of usage for the app-specific configs:
 
 ```markdown
 - Entry file: `./dist/src/App.js`
 - CLI file: `./dist/src/cli.js`
-- Project name: `code-narrator`
+- Project name: `code-narrator-turbo`
 - Repository URL: `https://github.com/ffrappo/code-narrator-turbo`
 - Source path: `src`
 - Documentation path: `docs`
 - Test path: `__tests__`
-- Include: `code-narrator.config.js`, `src/**/*.ts`
+- Include: `code-narrator-turbo.config.js`, `src/**/*.ts`
 - Builder plugins: ConfigurationBuilder, FilesBuilder, FoldersBuilder, UserDefinedBuilder
 ```
 
