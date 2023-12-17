@@ -14,7 +14,7 @@ const config = {
     ],
     readmeRoot: true,
     folderRootFileName: 'README',
-    repository_url: "https://github.com/ingig/code-narrator",
+    repository_url: "https://github.com/ffrappo/code-narrator-turbo",
     project_file: "package.json",
     source_path: "src",
     documentation_path: "docs",
@@ -83,7 +83,7 @@ const config = {
         },
 
         {
-            //https://github.com/ingig/code-narrator/tree/master/docs/howto
+            //https://github.com/ffrappo/code-narrator-turbo/tree/master/docs/howto
             type: "README",
             template: "overview_readme",
             name: "README",
@@ -115,7 +115,7 @@ const config = {
                     name:"HowTo run CLI",
                     template: "howto_run_cli",
                     args : {
-                        docUrl : "https://github.com/ingig/code-narrator/blob/master/docs/Configuration/code-narrator.config.js.md"
+                        docUrl : "https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator.config.js.md"
                     },
                     files : [
                         {
@@ -142,7 +142,7 @@ const config = {
             ]
         },
         {
-            //https://github.com/ingig/code-narrator/tree/master/docs/howto
+            //https://github.com/ffrappo/code-narrator-turbo/tree/master/docs/howto
             type: "README",
             template: "overview_readme",
             name: "README",

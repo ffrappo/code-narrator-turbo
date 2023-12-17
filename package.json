@@ -1,6 +1,6 @@
 {
   "name": "code-narrator",
-  "version": "1.0.17",
+  "version": "1.0.2",
   "description": "Uses OpenAI to generate documentation for your source code, as well create HowTo, FAQ, Tutorial and other custom pages. Code-narrator documents it self and should be a validation of the documentation working, similar to a compiler compiling it self. Configuration code-narrator.config.js file is created on first run and sets the configuration for your project, such as project path, doc, documentation type and more. The package can be install using 'npm i code-narrator -D'. code-narrator is code language, linguistic & framework neutral. It keeps your documentation always up to date",
   "keywords": [
     "documentation",
@@ -8,12 +8,12 @@
     "autodoc",
     "gpt4"
   ],
-  "homepage": "https://github.com/ingig/code-narrator",
+  "homepage": "https://github.com/ffrappo/code-narrator-turbo",
   "bugs": {
-    "url": "https://github.com/ingig/code-narrator/issues"
+    "url": "https://github.com/ffrappo/code-narrator-turbo/issues"
   },
   "repository": {
-    "url": "https://github.com/ingig/code-narrator"
+    "url": "https://github.com/ffrappo/code-narrator-turbo"
   },
   "bin": {
     "code-narrator-cli": "./dist/src/cli.js"
@@ -24,7 +24,7 @@
     "build": "npm run compile && gulp",
     "start": "npx ts-node .\\src\\cli.ts"
   },
-  "author": "Ingi Gauti Ragnarsson @ingig",
+  "author": "Francesco Frapporti @ffrappo",
   "license": "ISC",
   "main": "./dist/src/App.js",
   "types": "./dist/App.d.ts",
@@ -59,6 +59,7 @@
     "@jest/globals": "^29.5.0",
     "@types/jest": "^29.4.0",
     "@types/node": "^18.11.19",
+    "code-narrator-turbo": "git+https://github.com/ffrappo/code-narrator-turbo.git",
     "gulp": "^4.0.2",
     "gulp-copy": "^4.0.1",
     "gulp-typescript": "^6.0.0-alpha.1",

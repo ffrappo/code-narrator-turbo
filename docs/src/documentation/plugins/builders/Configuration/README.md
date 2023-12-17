@@ -14,4 +14,4 @@ The `ConfigurationBuilder.ts` file is a TypeScript code file that defines a clas
 
 ## Repository Link
 
-For more information and to access the source code, visit the repository at [https://github.com/ingig/code-narrator/src/documentation/plugins/builders/Configuration](https://github.com/ingig/code-narrator/src/documentation/plugins/builders/Configuration).
+For more information and to access the source code, visit the repository at [https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/builders/Configuration](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/builders/Configuration).

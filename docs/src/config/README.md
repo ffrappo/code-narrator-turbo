@@ -42,4 +42,4 @@ This is a TypeScript interface file that defines the structure of the `ICodeNarr
 
 ---
 
-[View the repository on GitHub](https://github.com/ingig/code-narrator/src/config)
+[View the repository on GitHub](https://github.com/ffrappo/code-narrator-turbo/src/config)

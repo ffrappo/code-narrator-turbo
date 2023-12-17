@@ -6,7 +6,7 @@ Here is an example of usage for the app-specific configs:
 - Entry file: `./dist/src/App.js`
 - CLI file: `./dist/src/cli.js`
 - Project name: `code-narrator`
-- Repository URL: `https://github.com/ingig/code-narrator`
+- Repository URL: `https://github.com/ffrappo/code-narrator-turbo`
 - Source path: `src`
 - Documentation path: `docs`
 - Test path: `__tests__`

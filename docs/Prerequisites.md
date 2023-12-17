@@ -10,7 +10,7 @@ Before you can fork and modify the code of the Code-Narrator project, you need t
 
 4. **Git**: You need to have Git installed on your system to fork and clone the project repository. You can download Git from the [official Git website](https://git-scm.com/).
 
-5. **Code-Narrator repository**: Fork the [Code-Narrator repository](https://github.com/ingig/code-narrator) on GitHub and clone it to your local machine.
+5. **Code-Narrator repository**: Fork the [Code-Narrator repository](https://github.com/ffrappo/code-narrator-turbo) on GitHub and clone it to your local machine.
 
 6. **Set OPENAI_API_KEY in .env file**: In the project's root directory, create a `.env` file and set the `OPENAI_API_KEY` environment variable with your OpenAI API key. Replace `your_api_key` with your actual API key:
 

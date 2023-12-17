@@ -26,7 +26,7 @@ This private static method returns an array of file and folder paths that should
 
 ### gptModel: string
 
-This static property holds the GPT model version to be used by the application. The default value is `'gpt-4'`.
+This static property holds the GPT model version to be used by the application. The default value is `'gpt-4-1106-preview'`.
 
 ## ICodeNarratorConfig Interface
 

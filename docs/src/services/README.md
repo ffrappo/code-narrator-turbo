@@ -21,4 +21,4 @@ This TypeScript file defines the `OpenAIService` class, which is responsible for
 
 ---
 
-[View the repository on GitHub](https://github.com/ingig/code-narrator/src/services)
+[View the repository on GitHub](https://github.com/ffrappo/code-narrator-turbo/src/services)

@@ -15,7 +15,7 @@ const UserDefinedBuilder = require("code-narrator/dist/src/documentation/plugins
 
 /**
  * You can find the documentation about code-narrator.config.js at
- * https://github.com/ingig/code-narrator/blob/master/docs/Configuration/code-narrator.config.js.md
+ * https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator.config.js.md
  *
  * @type {ICodeNarratorConfig}
  */

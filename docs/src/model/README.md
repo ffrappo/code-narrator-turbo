@@ -20,4 +20,4 @@ For more information about the `OpenAIResponse` class, please refer to the [Open
 
 ---
 
-For the complete source code, visit the [repository](https://github.com/ingig/code-narrator/src/model).
+For the complete source code, visit the [repository](https://github.com/ffrappo/code-narrator-turbo/src/model).

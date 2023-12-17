@@ -22,4 +22,4 @@ For more information, please refer to the [FoldersBuilder.ts](src\documentation\
 
 ## Repository Link
 
-For the complete source code and additional information, visit the [repository](https://github.com/ingig/code-narrator/src/documentation/plugins/builders/Folders).
+For the complete source code and additional information, visit the [repository](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/builders/Folders).

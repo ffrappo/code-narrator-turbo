@@ -51,5 +51,5 @@ This folder contains the necessary files to generate and render user-defined doc
 
 ## Repository Link
 
-[Access the repository here](https://github.com/ingig/code-narrator/src/documentation/plugins/builders)
+[Access the repository here](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/builders)
 ```

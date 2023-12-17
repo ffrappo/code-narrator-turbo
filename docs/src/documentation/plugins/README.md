@@ -43,4 +43,4 @@ The `Docusaurus` folder contains files and subfolders responsible for generating
 
 [Link to Docusaurus documentation](generators/Docusaurus)
 
-[Link to repository](https://github.com/ingig/code-narrator/src/documentation/plugins)
+[Link to repository](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins)

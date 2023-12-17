@@ -42,4 +42,4 @@ This folder contains various plugins that are used by the `DocumentationBuilder`
 
 ---
 
-[View the repository on GitHub](https://github.com/ingig/code-narrator/src/documentation)
+[View the repository on GitHub](https://github.com/ffrappo/code-narrator-turbo/src/documentation)

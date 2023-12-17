@@ -18,4 +18,4 @@ For more information about the `HowToBuilder` class, please refer to its [docume
 
 ---
 
-For the complete source code and additional information, please visit the [repository](https://github.com/ingig/code-narrator/src/documentation/plugins/builders/Howto).
+For the complete source code and additional information, please visit the [repository](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/builders/Howto).

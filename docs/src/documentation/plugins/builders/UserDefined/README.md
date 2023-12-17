@@ -20,4 +20,4 @@ For more information on the `UserDefinedBuilderHelper` class and its methods, re
 
 ---
 
-For the complete source code, visit the [repository](https://github.com/ingig/code-narrator/src/documentation/plugins/builders/UserDefined).
+For the complete source code, visit the [repository](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/builders/UserDefined).

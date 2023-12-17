@@ -30,11 +30,11 @@ Some of the main dependencies of Code-narrator include axios, dotenv, fs-extra, 
 
 ### 8. How can I contribute to Code-narrator?
 
-You can contribute to Code-narrator by visiting its GitHub repository at https://github.com/ingig/code-narrator and submitting issues or pull requests.
+You can contribute to Code-narrator by visiting its GitHub repository at https://github.com/ffrappo/code-narrator-turbo and submitting issues or pull requests.
 
 ### 9. How can I report bugs or request features for Code-narrator?
 
-You can report bugs or request features by visiting the GitHub issues page at https://github.com/ingig/code-narrator/issues.
+You can report bugs or request features by visiting the GitHub issues page at https://github.com/ffrappo/code-narrator-turbo/issues.
 
 ### 10. What is the license for Code-narrator?
 

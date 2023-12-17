@@ -25,4 +25,4 @@ For more information on the Docusaurus generator and its components, please refe
 
 ---
 
-Link to the repository: [https://github.com/ingig/code-narrator/src/documentation/plugins/generators](https://github.com/ingig/code-narrator/src/documentation/plugins/generators)
+Link to the repository: [https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/generators](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/generators)

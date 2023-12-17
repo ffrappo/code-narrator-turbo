@@ -22,7 +22,7 @@ export default class DefaultSettings {
             test_path: "./test",
             exclude: this.getFilesToExclude(),
             readmeRoot: true,
-            repository_url : "https://github.com/ingig/code-narrator",
+            repository_url : "https://github.com/ffrappo/code-narrator-turbo",
 
             //Order of plugins matter, ConfigurationGenerator runs first to get overview of the project.
             builderPlugins: [

@@ -42,4 +42,4 @@ This is a code file that defines a class called `ProjectStructure`. The class is
 
 ---
 
-[Link to Repository](https://github.com/ingig/code-narrator/src/utils)
+[Link to Repository](https://github.com/ffrappo/code-narrator-turbo/src/utils)

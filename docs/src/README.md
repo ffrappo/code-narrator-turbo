@@ -57,4 +57,4 @@ This folder is responsible for handling various utility functions and classes us
 
 ### Repository Link
 
-[Code Narrator Repository](https://github.com/ingig/code-narrator/src)
+[Code Narrator Repository](https://github.com/ffrappo/code-narrator-turbo/src)

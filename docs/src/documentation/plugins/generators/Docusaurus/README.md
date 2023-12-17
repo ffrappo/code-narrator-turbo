@@ -16,4 +16,4 @@ For more information on how to use the `DocusaurusGenerator` class, please refer
 
 ## Repository
 
-For more information and the source code, please visit the [repository](https://github.com/ingig/code-narrator/src/documentation/plugins/generators/Docusaurus).
+For more information and the source code, please visit the [repository](https://github.com/ffrappo/code-narrator-turbo/src/documentation/plugins/generators/Docusaurus).

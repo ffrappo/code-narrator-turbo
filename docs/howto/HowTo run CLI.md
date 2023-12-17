@@ -24,7 +24,7 @@ npx code-narrator
 
 ### Step 3: Configure Code-Narrator
 
-On the first run, Code-Narrator will create a configuration file. Make sure to read and edit the configuration file before generating documentation. You can find the documentation for the configuration file at [Code-Narrator Configuration](https://github.com/ingig/code-narrator/blob/master/docs/Configuration/code-narrator.config.js.md).
+On the first run, Code-Narrator will create a configuration file. Make sure to read and edit the configuration file before generating documentation. You can find the documentation for the configuration file at [Code-Narrator Configuration](https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator.config.js.md).
 
 ### Step 4: Use Arguments to Customize the Run
 
@@ -32,7 +32,7 @@ You can use the following arguments when running Code-Narrator to customize the 
 
 - `--config` or `-c`: Path to the configuration file (JSON or JavaScript)
 - `--include` or `-i`: Only include specific files or folders in the documentation process
-- `--gpt` or `-g`: GPT model (default is `gpt-4`, if you do not have access, the next best option is `gpt-3.5-turbo`)
+- `--gpt` or `-g`: GPT model (default is `gpt-4-1106-preview`, if you do not have access, the next best option is `gpt-3.5-turbo`)
 - `--userDefined` or `-u`: Runs only update on userDefined builder from config matching template name
 
 For example, to run Code-Narrator with a custom configuration file and include only specific files or folders, use the following command:

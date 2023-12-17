@@ -3,3 +3,9 @@
 .idea
 /classic/
 /dist/
+package-lock.json
+.code-narrator/cache.json
+.DS_Store
+.code-narrator/cache.json
+package-lock.json
+.code-narrator/cache.json

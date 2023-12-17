@@ -20,7 +20,7 @@ export default class CliHelper {
                 alias: 'include'
             }).option('g', {
                 type: 'string',
-                description: `GPT model. Default is gpt-4, if you do not have access, next best is gpt-3.5-turbo, but it isn't not so good`,
+                description: `GPT model. Default is gpt-4-1106-preview, if you do not have access, next best is gpt-3.5-turbo, but it isn't not so good`,
                 alias: 'gpt'
             }).option('u', {
                 type:'string',

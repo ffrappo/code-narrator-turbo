@@ -40,7 +40,7 @@ Before you begin, make sure you have the following:
   "template": "howto_run_cli",
   "name": "HowTo run CLI",
   "args": {
-    "docUrl": "https://github.com/ingig/code-narrator/blob/master/docs/Configuration/code-narrator.config.js.md"
+    "docUrl": "https://github.com/ffrappo/code-narrator-turbo/blob/master/docs/Configuration/code-narrator.config.js.md"
   },
   "files": [
     {

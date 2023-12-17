@@ -22,7 +22,7 @@ This method returns a Promise that resolves to an object containing the parsed c
 
 - `-c` or `--config`: Path to the configuration file (JSON or JavaScript). This is an optional argument.
 - `-i` or `--include`: An array of specific files or folders to include in the documentation process. This is an optional argument.
-- `-g` or `--gpt`: The GPT model to use. Default is `gpt-4`. If you do not have access, the next best option is `gpt-3.5-turbo`. This is an optional argument.
+- `-g` or `--gpt`: The GPT model to use. Default is `gpt-4-1106-preview`. If you do not have access, the next best option is `gpt-3.5-turbo`. This is an optional argument.
 - `-u` or `--userDefined`: Runs only update on userDefined builder from config matching template name. This is an optional argument.
 
 ### getConfig(argv: any): Promise<Partial<ICodeNarratorConfig>>
