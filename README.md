@@ -6,15 +6,17 @@
 
 ## Getting Started
 
-1. Install the package:
+ 1. Move to your project directory.
+
+ 2. Install the package:
 
 ```bash
-npm i code-narrator-turbo -D
+npm i https://github.com/ffrappo/code-narrator-turbo -D
 ```
 
-2. Move to your project directory.
-3. Create a `.env` file there (if it doesn't exist) and add your `OPENAI_API_KEY=****`.
-4. Run code-narrator-turbo:
+ 3. Create a `.env` file there (if it doesn't exist) and add your `OPENAI_API_KEY=****`.
+
+ 4. Run code-narrator-turbo:
 
 ```bash
 npx code-narrator-turbo
